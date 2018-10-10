@@ -97,3 +97,9 @@ a:hover{
 		float:none;
 	}
 }
+
+.post{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;	
+}
