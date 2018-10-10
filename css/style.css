@@ -103,3 +103,15 @@ a:hover{
 	margin:auto;
 	overflow:hidden;	
 }
+
+#post-date{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.post-title{
+	width: 80%;
+	margin:auto;
+	overflow:hidden;
+}
