@@ -1,35 +1,36 @@
-<html>
-<head>
-	<title>{{ page.title }}</title>
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
-</head>
-<body>
-	<header id="main-header">
-		<div class="container">
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+	</head>
+	<body>
+		<header id="main-header">
+			<div class="container">
 
-		<h1>My Website</h1>
+			<h1>My Website</h1>
 
-		</div><!-- ./container -->
-	</header>
+			</div><!-- ./container -->
+		</header>
 
-	<nav id="navbar">
-		<div>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
+		<nav id="navbar">
+			<div>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="main-container">
+			  {{ content }}
 		</div>
-	</nav>
-	
-	<div class="main-container">
-		  {{ content }}
-	</div>
 
-	<footer id="main-footer">
-		<p>Copyright &copy; 2017 My Website</p>
-	</footer>
+		<footer id="main-footer">
+			<p>Copyright &copy; 2017 My Website</p>
+		</footer>
 
-</body>
-</html>
+	</body>
+	</html>
